@@ -1,0 +1,63 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 1.5rem;
+    
+}
+
+h1, h2, h3 {
+    color:#bb1b47;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight:normal;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.site-intro p {
+    font-size: 1.25rem;
+}
+
+/*Improved Menu Link styling, added letter spacing using CSS and <br> in html file for separation??*/
+
+nav a {
+    background-color: rgb(19, 19, 104); 
+    color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     letter-spacing: .1rem;
+     padding: .125rem .125rem;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ 
+ nav a:visited {
+    background-color: none;
+    color: yellow;
+}
+
+ nav a:hover {
+     background-color: red;
+     color: white;
+     text-decoration: underline;
+ }
+
+ nav a:active {
+     box-shadow: 0 5px 0 darkred;
+ }
+
+ nav a:focus {
+     color: white;
+ }
+
+ 
