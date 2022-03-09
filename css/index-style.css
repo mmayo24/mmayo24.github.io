@@ -79,7 +79,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-    color: rgb(121, 6, 102);
+    color: rgb(114, 9, 96);
     text-decoration: underline dotted rgb(121, 6, 102) .3rem;
     text-underline-offset: .2rem;
 }
