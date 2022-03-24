@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="/form-style.css">
 </head>
+
 <body>
     <div id="wrapper">
+           
+    
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
@@ -34,7 +38,7 @@
     </section>
 
     <section class="reserve">
-        <form method="post" name="reservation" data-netlify="true">
+        <Form method="post" name="reservation" data-netlify="true">
 
             <div>
                 <label for="firstName">First Name:</label>
@@ -67,7 +71,7 @@
             </div>
 
             <div>
-                <label for="guestNumber">Number of Guests (4 is maximum):</label>
+                <label for="guestNumber">No. of Guests 4 (max):</label>
                 <input type="number" name="guestNumber" id="guestNumber" min="1" max="4"  required>
             </div>
 
@@ -80,25 +84,26 @@
             </select>
 
 
-            <div>Ocean View (additional cost)</div>
+            <div class="radio">
+                <span>View (additional cost)</span>
             <label for="view">Yes</label>
             <input type="radio" name="view" id="yes" value="yes">
-
             <label for="view">No</label>
             <input type="radio" name="view" id="no" value="no">
+            </div>
 
             <div>
-                <label for="notes">List Allergies or Other Requests</label>
+                <label for="notes">Upload Vaccine Proof</label>
             <textarea name="notes" id="notes" cols="15" rows="2"></textarea>   
             </div>
 
             <div>
-                <label for="agree">I agree to all the terms listed above.</label>
+                <label for="agree">I agree to all the terms.</label>
                 <input type="checkbox">
             </div>
 
             <div>
-                <label for="password">Create a password to return. Username is your email.</label>
+                <label for="password">Create a password</label>
                 <input type="password" name="password" id="password">
             </div>
 
@@ -111,17 +116,14 @@
             </div>
             <br>
             <footer>
-            &copy; 2022 The Inn at Snowy River <br>
-            Stowe, VT
+            &copy; 2022 Hotel Residence<br>
+            The Asnuntuck Business Center
               
-            </footr>
+            </footer>
+        
             
         </form>
     </section>
-
-
-
-
 
 
     </div>   
