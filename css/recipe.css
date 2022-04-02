@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+    color: #50504f;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.28rem;
+    line-height: 125%;
+
+}
+  /*    font-family: 'Croissant One', cursive;
+        font-family: 'Lato', sans-serif;
+*/
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: #c98226;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #dfab3b;
+    color: #000;
+    text-decoration: underline;
+    
+}
+
+nav a:focus {
+    color: darkorange;
+    border-color: darkred;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Croissant One', cursive;
+}
+
+h1 {
+    color: #c98226;
+    font-size: 2.8rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3px 5px 3px rgb(173, 159, 159);
+}
+
+
+img {
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px rgb(173, 159, 159);
+    shape-outside: circle(50%);
+}
+
+header h2 {
+    margin-top: 8%;
+}
+
+.rate {
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after {
+    content: "\1f370";
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 40%;
+    float: left;
+
+}
+
+.details,
+.instructions {
+    margin-right: 16%;
+    margin-left: 2%;
+}
+
+blockquote {
+    background-color: #f3c992;
+    border-radius: 50%;
+    color: black;
+    clear: both;
+    font-family: 'Croissant One', cursive;
+    font-size: .95rem;
+    height: 280px;
+    margin: 40px auto;
+    outline: dotted #c98226;
+    outline-offset: 10px;
+    padding: 78px 16px 0 20px;
+    width: 300px;
+}
+
+blockquote small {
+    text-align: right;
+}
+
+footer {
+    background-color: #c98226;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px;    
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: left;
+    width: 33%;
+
+}
+
+footer {
+    clear: both;
+}
