@@ -162,3 +162,128 @@ footer ul {
 footer {
     clear: both;
 }
+
+/* media queries go to the bottom of CSS */
+
+@media (max-width: 360px) {
+
+        html {
+            line-height: 135%;
+        }
+
+        nav a {
+            padding: 5px;
+            letter-spacing: normal;
+            font-size: .9rem;
+        }
+
+        nav ul {
+            padding-left: 10px;
+        }
+
+        main {
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            text-shadow: none;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        img {
+            float: none;
+            max-width: 60%;
+            margin-left: 20%;
+        }
+
+        .rate {
+            font-size: 1rem;
+        }
+
+        .details,
+        .ingredients,
+        .instructions,
+        .nutrition {
+            width: 90%;
+            float: none;
+
+        }
+        
+        .col1,
+        .col2,
+        .col3 {
+            display: block;
+            float: none;
+            width: 90%;
+            text-align: center;
+        }        
+
+        
+}
+
+/* my ipad max-width = 768px not 810px */
+
+@media (max-width: 768px) {
+
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        text-shadow: 3px 5px 3px rgb(173, 159, 159);
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        float: none;
+        width: 90%;
+
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        float: left;
+        display: block;
+        text-align: center;
+        width: 33%;
+         
+    }        
+
+    
+}
