@@ -37,7 +37,7 @@ img {
 
 /* made reference to https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_transform */
 div.rotating {
-    animation: spin 8s infinite;
+    animation: spin 8s;
     float: right;
     width: 80px;px;
     height: 80px;
